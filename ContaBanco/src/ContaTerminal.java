@@ -26,7 +26,7 @@ public class ContaTerminal {
             float randomBalance = random.nextFloat()*5001;
             String number = String.format("%.2f",randomBalance);
 
-            System.out.println("Olá "+accountName+accountName1+", acesso efetuado com sucesso! Sua agência é "+agencyNum+", conta "+accountNum+" e seu saldo de "+number+" já está disponível para saque");
+            System.out.println("Olá "+accountName+accountName1+", obrigado por criar uma conta em nosso banco, sua agência é "+agencyNum+", conta "+accountNum+" e seu saldo de "+number+" já está disponível para saque.");
         } catch (Exception e) {
             System.out.println("Letras em campos numéricos não são permitidos! Encerrando tentativa de login.");;
         }
